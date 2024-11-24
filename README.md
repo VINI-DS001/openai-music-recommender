@@ -1,6 +1,6 @@
 # Recomendador de Playlists de Trilha Sonora Baseadas em Preferências de Jogos ou Animes.
 
-Equipe: Alec de Jesus, Breno Passos, Felipe Brasileiro, Felipe Leão, Vinícius Souza
+Equipe: Alec de Jesus, Felipe Leão, Henrique Lyrio, Mateus Pires, Rafael Miguez, Vinícius Souza
 
 ## Índice
 - [Descrição do Projeto](#descrição-do-projeto)
