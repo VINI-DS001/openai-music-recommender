@@ -6,10 +6,7 @@ Equipe: Alec de Jesus, Felipe Leão, Henrique Lyrio, Mateus Pires, Rafael Miguez
 - [Descrição do Projeto](#descrição-do-projeto)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
 - [Instalação e Execução](#instalação-e-execução)
-- [Treinamento e Escolha dos Algoritmos](#treinamento-e-escolha-dos-algoritmos)
 - [Conjunto de Dados](#conjunto-de-dados)
-- [Imagens](#imagens)
-- [Vídeos](#vídeos)
 
 ## Descrição do Projeto
 
