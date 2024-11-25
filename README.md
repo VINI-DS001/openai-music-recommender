@@ -6,6 +6,7 @@ Equipe: Alec de Jesus, Felipe Leão, Henrique Lyrio, Mateus Pires, Rafael Miguez
 - [Descrição do Projeto](#descrição-do-projeto)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
 - [Instalação e Execução](#instalação-e-execução)
+- [Funcionalidades](#funcionalidades)
 - [Conjunto de Dados](#conjunto-de-dados)
 
 ## Descrição do Projeto
@@ -43,9 +44,19 @@ Para rodar o projeto localmente:
     pip install python-dotenv
     ```
 
-## Tecnologias utilizadas
+## Funcionalidades
 
-As tecnologias da OpenAI escolhidas para o projeto incluem o GPT-4 com o objetivo de gerar descrições detalhadas de playlists com base nos animes/jogos informados pelo usuário. Ada v2 foi utilizada para agrupamento e classificação de dados musicais (ex.: identificar estilos musicais associados a cada título de anime/jogo). Por fim foi utilizado o DALL-E para gerar capas artísticas únicas para as playlists criadas, com base nos animes/jogos ou no gênero das músicas.
+Análise e Geração de Descrição Temática:
+A aplicação utiliza o modelo GPT-4 da OpenAI para analisar títulos de animes ou jogos inseridos pelo usuário. Em seguida, gera uma descrição temática que ressoe com o universo do título, seja ele de anime ou jogo.
+
+Sugestão de Músicas:
+A IA sugere músicas de um banco de dados de acordo com o estilo do anime/jogo inserido pelo usuário. As sugestões são baseadas em gênero musical, clima e vibe do título escolhido.
+
+Classificação de Músicas Relevantes:
+A Ada v2, outro modelo da OpenAI, classifica músicas com base na sua relevância para o estilo do anime/jogo. Com isso, a IA é capaz de montar playlists personalizadas, selecionando músicas que melhor se encaixam no universo do título selecionado.
+
+Criação de Capa de Playlist:
+A aplicação usa o modelo DALL-E para gerar uma capa artística exclusiva para a playlist sugerida. A imagem é criada com uma estética que combina com o estilo visual do anime ou jogo escolhido.
 
 ## Conjunto de Dados
 
