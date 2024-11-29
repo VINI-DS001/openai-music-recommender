@@ -8,6 +8,7 @@ Equipe: Alec de Jesus, Felipe Leão, Henrique Lyrio, Mateus Pires, Rafael Miguez
 - [Instalação e Execução](#instalação-e-execução)
 - [Funcionalidades](#funcionalidades)
 - [Conjunto de Dados](#conjunto-de-dados)
+- [Vídeos](#vídeos)
 
 ## Descrição do Projeto
 
@@ -50,16 +51,19 @@ Análise e Geração de Descrição Temática:
 A aplicação utiliza o modelo GPT-4 da OpenAI para analisar títulos de animes ou jogos inseridos pelo usuário. Em seguida, gera uma descrição temática que ressoe com o universo do título, seja ele de anime ou jogo.
 
 Sugestão de Músicas:
-A IA sugere músicas de um banco de dados de acordo com o estilo do anime/jogo inserido pelo usuário. As sugestões são baseadas em gênero musical, clima e vibe do título escolhido.
+A IA sugere músicas de um banco de dados de acordo com o estilo do anime/jogo inserido pelo usuário. As sugestões são baseadas na letra da música, clima e vibe do título escolhido.
 
 Classificação de Músicas Relevantes:
 A Ada v2, outro modelo da OpenAI, classifica músicas com base na sua relevância para o estilo do anime/jogo. Com isso, a IA é capaz de montar playlists personalizadas, selecionando músicas que melhor se encaixam no universo do título selecionado.
 
 Criação de Capa de Playlist:
-A aplicação usa o modelo DALL-E para gerar uma capa artística exclusiva para a playlist sugerida. A imagem é criada com uma estética que combina com o estilo visual do anime ou jogo escolhido.
+A aplicação usa o modelo DALL-E para gerar uma capa artística exclusiva para a playlist sugerida de acordo com a descrição.. A imagem é criada com uma estética que combina com o estilo visual do anime ou jogo escolhido.
 
 ## Conjunto de Dados
 
-O conjunto de dados original utilizado para criar o banco das músicas a serem recomendadas é constituído de um arquivo csv contendo aproximadamente 28 mil músicas, incluindo seus gêneros musicais, autores e ano de lançamento.
+O conjunto de dados original utilizado para criar o banco das músicas a serem recomendadas é constituído de um arquivo csv contendo aproximadamente 1 milhão de músicas, seus artistas, links de acesso e trecho de uma letra. Por conta do tamanho do dataset, foi extraída uma amostra composta de 100 músicas utilizadas para realizar a criação da playlist de acordo com o jogo ou anime escolhido.
 
- - [Dataset: Musicas](https://www.kaggle.com/datasets/saurabhshahane/music-dataset-1950-to-2019)
+ - [Dataset: Musicas](https://www.kaggle.com/datasets/notshrirang/spotify-million-song-dataset)
+
+ ## Vídeos
+ - [Execução do código principal do projeto](https://drive.google.com/file/d/1Tj-W4aNYoeusxXm3DEV9Tibj7agDidF_/view?usp=sharing)
